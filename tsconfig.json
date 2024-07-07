@@ -1,0 +1,19 @@
+{
+"compilerOptions": {
+    "module": "NodeNext",
+    "lib": ["ES2022", "DOM"],
+    "target": "ES2022",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "out/",
+    "sourceMap": true,
+    "moduleResolution": "NodeNext"
+},
+"ts-node": {
+    // Do not forget to `npm i -D tsconfig-paths`
+    "require": ["tsconfig-paths/register"]
+},
+"include": ["src/*"],
+"exclude": ["**/*.spec.ts"]
+}
