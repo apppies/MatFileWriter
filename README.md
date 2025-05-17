@@ -19,10 +19,10 @@ There is no reading support, there are other modules which support that.
 
 ## Usage
 
-See the example folder and tests for a simple examples. Basic usage is as follows:
+See the example folder and tests for simple examples. Basic usage is as follows:
 
 ```typescript
-import { MatFileWriter } from "./matFileWriter";
+import { MatFileWriter } from "mat-file-writer";
 
 let writer = new MatFileWriter();
 writer.addVariable("Variable1", [1,2,3]);
